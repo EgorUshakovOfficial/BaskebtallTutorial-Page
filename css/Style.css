@@ -1,0 +1,68 @@
+﻿/*Global*/
+
+p, li{
+    font-size: 1.2em; 
+    font-family: sans-serif;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background: silver;
+}
+
+#nav-ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-li{
+    text-decoration: none;
+    list-style-type: none;
+    align-self: flex-start;
+}
+
+.nav-link{
+    color: black;
+    text-transform: capitalize;
+}
+
+#main-doc{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#types_of_shots{
+    align-self: flex-start;
+}
+
+#followthrough {
+    align-self: flex-start;
+}
+
+@media(max-width: 800px){
+
+    .nav-link{
+        font-size: 1em;
+    }
+
+}
+
+
